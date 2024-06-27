@@ -1,0 +1,137 @@
+/*--------------------------------------------------------------
+# company_hero
+--------------------------------------------------------------*/
+#company_hero{
+    background-attachment: fixed !important;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/company.png) top center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+}
+
+#company_hero::before{
+    content: "";
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#company_hero .company_hero-container{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#company_hero .company_hero-container h2{
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 80px;
+    font-weight: 700;
+}
+/*--------------------------------------------------------------
+# company
+--------------------------------------------------------------*/
+.company_thum{
+    background-image: url(../img/coca-cola.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 394px;
+}
+.company_desp .btn{
+    border: 2px solid #000;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.company_desp .btn:hover{
+    color: #fff;
+    background: #000;
+}
+/*--------------------------------------------------------------
+# card
+--------------------------------------------------------------*/
+.card{
+    border: none !important;
+}
+.card-body{
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+.card-body h5{
+    font-weight: 700;
+    font-size: 24px;
+}
+.card-body p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.card-body a{
+    color: #fff;
+    border: 1px solid #fff;
+}
+.card-body:hover{
+    background: #fff;
+    color: #000;
+    transition: 0.3s;
+}
+.card-body:hover a{
+    color: #000;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+/*--------------------------------------------------------------
+# counter
+--------------------------------------------------------------*/
+.counter-box {
+	display: block;
+	background: #fff;
+	padding: 80px 20px;
+	text-align: center;
+    border: 1px solid #000;
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #000;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #000
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #000;
+	line-height: 28px
+}
+
+.counter-box.colored {
+      background: #000;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
+}

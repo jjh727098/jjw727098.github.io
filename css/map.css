@@ -1,0 +1,29 @@
+.map_desp{
+    text-align: left;
+    padding-bottom: 30px;
+}
+.map_desp:nth-child(1){
+    margin-right: 60px;
+}
+.map_desp h2{
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+.map_desp p{
+    margin: 15px auto 0 auto;
+    font-weight: 300;
+}
+@media (max-width: 1024px) {
+    .map_desp h2{
+      white-space: nowrap;
+      font-size: 18px;
+    }
+    .map_desp p{
+      font-size: 14px;
+    }
+    .map_desp:nth-child(1){
+        margin-right: 30px;
+    }
+  }
